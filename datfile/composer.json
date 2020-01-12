@@ -1,0 +1,17 @@
+{
+    "name": "testeexpermed",
+    "description": "Realizar processamento necessário de arquivo .dat retornando um arquivo .done.dat como resultado.",
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "Classes/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
