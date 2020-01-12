@@ -12,4 +12,4 @@ Para inicializar todas dependencias necessárias (Executar dentro do container):
 
 `cd /var/www/html && yarn install && yarn build && cd datfile && chmod 777 data -Rf && composer install && httpd && nohup php /var/www/html/datfile/expermed.php &`
 
-Acessível por localhost:5000/build
+Interface acessível por http://localhost:5000/build
